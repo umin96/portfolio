@@ -54,7 +54,7 @@
 }
 .about_top_img:hover >a> img,
 .about_top_img.hover >a> img {
-  transform: translateY(28px);
+  transform: translateY(280px);
 }
 
 
