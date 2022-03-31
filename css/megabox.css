@@ -1,0 +1,387 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#all{
+    overflow:hidden;
+    width: 1903px;
+    height: 7700px;
+    position: relative;
+  }
+
+.overview{
+    position:absolute;
+    left: 320px;
+    top:1125px;
+}
+
+.typo{
+    position:absolute;
+    left: 320px;
+    top:1455px;
+}
+
+.color{
+    position:absolute;
+    left: 320px;
+    top:1870px;
+}
+
+.line01{
+    position:absolute;
+    left: 320px;
+    top:1390px;
+}
+
+.line02{
+    position:absolute;
+    left: 320px;
+    top:2200px;
+}
+
+.title{
+    position:absolute;
+    left: 320px;
+    top:2260px;
+}
+
+.title_before{
+    position:absolute;
+    left: 380px;
+    top:2338px;
+}
+
+.title_arrow{
+    position:absolute;
+    left: 940px;
+    top:2445px;
+}
+
+.title_after{
+    position:absolute;
+    left: 1060px;
+    top:2360px;
+}
+
+.promotion{
+    position:absolute;
+    left: 320px;
+    top:2710px;
+}
+
+.layout{
+    position:absolute;
+    left: 400px;
+    top:2820px;
+}
+
+.circle01{
+    position:absolute;
+    left: 712px;
+    top:2932px;
+    animation: circle01 3s linear infinite;
+}
+
+@keyframes circle01 {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+   }
+
+.circle02{
+    position:absolute;
+    left: 1339px;
+    top:2923px;
+    animation: circle02 3s linear infinite;
+}
+
+@keyframes circle02 {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+   }
+
+.circle03{
+    position:absolute;
+    left: 532px;
+    top:3195px;
+    animation: circle03 3s linear infinite;
+}
+
+@keyframes circle03 {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+   }
+
+.promotion_t{
+    position:absolute;
+    left: 710px;
+    top:2902px;
+}
+
+.sub{
+    position:absolute;
+    left: 1080px;
+    top: 3210px;
+    
+}
+.tenet{
+    position:absolute;
+    left: 603px;
+    top:3390px;
+}
+.movie02{
+    position:absolute;
+    left: 603px;
+    top:3570px;
+}
+.movie03{
+    position:absolute;
+    left: 920px;
+    top:3682px;
+}
+
+
+.bar01>ul>.layer{
+    position:absolute;
+}
+.bar01>#scene{
+    position:absolute;
+}
+
+.bar01{
+    position:absolute;
+    left: 350px;
+    top:3595px;
+}
+
+.bar01>ul>li>.bar02{
+    position:absolute;
+    left:914px;
+    top:-100px;
+}
+.bar01>ul>li>.bar03{
+    position:absolute;
+    left: 922px;
+    top:30px;
+}
+
+.sub_title01{
+    position:absolute;
+    left: 685px;
+    top:4195px;
+}
+
+.tickect{
+    position:absolute;
+    left: 596px;
+    top:4261px;
+}
+
+.con01{
+    position:absolute;
+    left: 865px;
+    top:4270px;
+}
+
+.button01 {
+    position:absolute;
+    top:4532px;
+    left: 805px;
+    z-index: 15 !important;
+  }
+  .button01 a {
+    padding: 18px 110px;
+    text-align: center;
+    font: 23px "AppleSDGothicNeoM.woff"; 
+    color: #fff;
+    background-color: #66b3b89d;
+    text-transform: uppercase;
+    border-radius: 70px;
+  }
+  
+  .button01 a:hover {
+    font: 23px "AppleSDGothicNeoM.woff"; 
+    color: #fff;
+    background-color: #61b4ba;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+.one_title{
+    position:absolute;
+    left: 748px;
+    top:4971px;
+}
+
+.one_con{
+    position:absolute;
+    left: 681px;
+    top:4964px;
+}
+
+.one_box{
+    position:absolute;
+    left: 597px;
+    top:5120px;
+}
+
+.one_stamp_back{
+    position:absolute;
+    left: 636px;
+    top:5165px;
+    animation: one_stamp_back 3s linear infinite;
+}
+
+@keyframes one_stamp_back {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+   }
+
+.one_stamp_text{
+    position:absolute;
+    left: 636px;
+    top:5173px;
+}
+
+.one_stamp_title{
+    position:absolute;
+    left: 656px;
+    top:5280px;
+}
+
+.stamp{
+    position:absolute;
+    left: 760px;
+    top:5165px;
+}
+
+.two_title{
+    position:absolute;
+    left: 678px;
+    top:5750px;
+}
+
+.two_con{
+    position:absolute;
+    left: 730px;
+    top:5815px;
+}
+
+.two_box{
+    position:absolute;
+    left: 597px;
+    top:5875px;
+}
+
+.two_con02{
+    position:absolute;
+    left: 940px;
+    top:5867px;
+}
+
+.two_con03{
+    position:absolute;
+    left: 586px;
+    top:5920px;
+}
+
+.button02 {
+    position:absolute;
+    top:6100px;
+    left: 775px;
+    z-index: 15 !important;
+  }
+  .button02 a {
+    padding: 18px 110px;
+    text-align: center;
+    font: 23px "AppleSDGothicNeoM.woff"; 
+    color: #fff;
+    background-color: #66b3b89d;
+    text-transform: uppercase;
+    border-radius: 70px;
+  }
+  .button02 a:hover {
+    font: 23px "AppleSDGothicNeoM.woff"; 
+    color: #fff;
+    background-color: #61b4ba;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+.cut{
+    position:absolute;
+    left: 497px;
+    top:6269px;
+}
+.notice{
+    position:absolute;
+    left: 562px;
+    top:6310px;
+}
+.button03 {
+    position:absolute;
+    top:6545px;
+    left: 805px;
+    z-index: 15 !important;
+  }
+  .button03 a {
+    padding: 18px 110px;
+    text-align: center;
+    font: 23px "AppleSDGothicNeoM.woff"; 
+    color: #fff;
+    background-color: #66b3b89d;
+    text-transform: uppercase;
+    border-radius: 70px;
+  }
+  
+  .button03 a:hover {
+    font: 23px "AppleSDGothicNeoM.woff"; 
+    color: #fff;
+    background-color: #61b4ba;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+
+.circle04{
+    position:absolute;
+    left: 480px;
+    top:6482px;
+}
+
+.bar01>ul>li>.circle05{
+    position:absolute;
+    left: 370px;
+    top:2850px;
+}
+
+.bar01>ul>li>.circle06{
+    position:absolute;
+    left: 80px;
+    top:3030px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.banner{
+    position:absolute;
+    left: 320px;
+    top:7175px;
+}

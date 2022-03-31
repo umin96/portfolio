@@ -1,0 +1,719 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#all{
+    overflow:hidden;
+    width: 1903px;
+    height: 16700px;
+    position: relative;
+  }
+
+.main{
+    position:absolute;
+}
+
+  .circleline {
+    position: absolute;
+    left: 991px;
+    top: 128px;
+    animation: circleline 3s linear infinite;
+}
+@keyframes circleline {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+   }
+
+.visual_mockup{
+    position: absolute;
+    left: 990px;
+    top: 147px;
+   }
+
+.circle01{
+    position: absolute;
+    left: 1380px;
+    top: 110px;
+    animation: circle01 3s ease-in-out infinite;
+}
+
+@keyframes circle01 {
+  50% {
+     top: 90px;
+     left: 1380px;
+  }
+}
+
+.circle02{
+    position: absolute;
+    left: 967px;
+    top: 533px;
+    animation: circle02 3.5s ease-in-out infinite;
+}
+
+@keyframes circle02 {
+  50% {
+     left: 967px;
+     top: 513px;
+  }
+}
+
+.circle03{
+    position: absolute;
+    left: 1677px;
+    top: 645px;
+    animation: circle03 2.5s ease-in-out infinite;
+}
+
+@keyframes circle03 {
+  50% {
+     top: 655px;
+     left: 1677px;
+  }
+}
+
+.overview{
+    position: absolute;
+}
+.overview_circle01{
+    position: absolute;
+    top: 1153px;
+    left: 706px;
+    animation: overview_circle01 2.5s ease-in-out infinite;
+}
+
+@keyframes overview_circle01{
+  50% {
+    top: 1133px;
+    left: 706px;
+  }
+}
+.overview_circle02{
+    position: absolute;
+    left: 267px;
+    top: 1215px;
+    animation: overview_circle02 2.5s ease-in-out infinite;
+}
+@keyframes overview_circle02{
+  50% {
+     top: 1235px;
+     left: 267px;
+  }
+}
+.overview_title{
+    position:absolute;
+    left: 295px;
+    top:1121px;
+}
+
+.overview_con01{
+    position:absolute;
+    left: 267px;
+    top:1330px;
+}
+
+.overview_con02{
+    position:absolute;
+    left: 1090px;
+    top:1450px;
+}
+
+.logodesign{
+    position:absolute;
+}
+.logo_con{
+    position:absolute;
+    left: 295px;
+    top:1931px;
+}
+.logo{
+    position:absolute;
+    left: 601px;
+    top:2132px;
+}
+
+.stylegude{
+    position:absolute;
+}
+.style_title{
+    position:absolute;
+    left: 295px;
+    top:2692px;
+}
+.typo{
+    position:absolute;
+    left: 295px;
+    top:2883px;
+}
+.color{
+    position:absolute;
+    left: 1002px;
+    top:2883px;
+}
+.color01{
+    position: absolute;
+    left: 1140px;
+    top: 2900px;
+    animation: color01 2.5s ease-in-out infinite;
+}
+@keyframes color01{
+  50% {
+     left: 1140px;
+     top:2920px;
+  }
+}
+  .color02{
+    position: absolute;
+    left: 1068px;
+    top: 2997px;
+    animation: color02 2.5s ease-in-out infinite;
+}
+@keyframes color02{
+  50% {
+     left: 1068px;
+     top:2987px;
+  }
+}
+
+.icon_con01{
+    position:absolute;
+    top:3517px;
+    left: 295px;
+}
+
+.grid{
+  position:absolute;
+}
+.grid_title{
+  position:absolute;
+  top:3688px;
+  left: 295px;
+}
+.grid_icon{
+  position:absolute;
+  top:3777px;
+  left: 775px;
+}
+
+.grid_screen{
+  position: relative;
+  margin: auto;
+  width: 284px;
+  height: 284px;
+  text-align: center;
+  overflow: hidden;
+  top:3746px;
+  left: 313px;
+}
+.grid_auto{
+    padding: 0;
+    width: 9999px;
+    transition: all 0.5s;
+    animation: grid_auto 10s infinite;
+  }
+
+  .grid_auto>li {
+    float: left;
+    width: 284px;
+    height: 284px;
+    list-style: none;
+    line-height: 200px;
+  }
+
+  @keyframes grid_auto {
+      0% {margin-left:0;}  /* 10 ~ 25 : 변이 */
+      16% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+      32% {margin-left:-200%;}
+      48% {margin-left:-300%;}
+      64% {margin-left:-400%;}
+      80% {margin-left:-500%;}
+      100% {margin-left:0;}
+    }
+
+  .grid_auto li:nth-child(1) {
+      background-image: url('../img/bellance/grid01.jpg');
+      z-index: 100;
+    }
+    .grid_auto li:nth-child(2) {
+      background-image: url('../img/bellance/grid02.jpg');
+      z-index: 100;
+    }
+    .grid_auto li:nth-child(3) {
+      background-image: url('../img/bellance/grid03.jpg');
+      z-index: 100;
+    }
+    .grid_auto li:nth-child(4) {
+      background-image: url('../img/bellance/grid04.jpg');
+      z-index: 100;
+    }
+    .grid_auto li:nth-child(5) {
+      background-image: url('../img/bellance/grid05.jpg');
+      z-index: 100;
+    }
+    .grid_auto li:nth-child(6) {
+      background-image: url('../img/bellance/grid06.jpg');
+      z-index: 100;
+    }
+    .grid_line{
+      position:absolute;
+      top:3746px;
+      left: 314px;
+    }
+
+.flowchart{
+    position:absolute;
+}
+.flow01{
+    position:absolute;
+    top:4336px;
+    left: 295px;
+}
+.flow02{
+    position:absolute;
+    top:4283px;
+    left: 983px;
+}
+
+.on{
+    position:absolute;
+}
+.onboarding{
+    position:absolute;
+    top:5479px;
+    left: 297px;
+}
+.on_line01{
+    position: absolute;
+    left: 847px;
+    top: 5234px;
+    animation: on_line01 45s linear infinite;
+}
+@keyframes on_line01 {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+   }
+
+   .on_line02{
+    position: absolute;
+    left: 1049px;
+    top: 5431px;
+    animation: on_line02 35s linear infinite;
+}
+@keyframes on_line02 {
+    0%	{}
+    50% {transform: rotate(-180deg);}
+    100% {transform: rotate(-360deg);}
+   }
+
+   .on_con{
+       position: absolute;
+       left: 1007px;
+       top:5319px;
+   }
+
+   .slide {
+    position: relative;
+    margin: auto;
+    width: 276px;
+    height: 465px;
+    text-align: center;
+    overflow: hidden;
+    top:5408px;
+    left: 1148px;
+  }
+  .slide_auto{
+      margin: 10px 0;
+      padding: 0;
+      width: 9999px;
+      transition: all 0.5s;
+      animation: slide_auto 8s infinite;
+    }
+
+    .slide_auto>li {
+      float: left;
+      width: 276px;
+      height: 465px;
+      list-style: none;
+      line-height: 200px;
+    }
+
+    @keyframes slide_auto {
+        0% {margin-left:0;} /* 0 ~ 10  : 정지 */
+        10% {margin-left:0;} /* 10 ~ 25 : 변이 */
+        25% {margin-left:-100%;} /* 25 ~ 35 : 정지 */
+        35% {margin-left:-100%;} /* 35 ~ 50 : 변이 */
+        50% {margin-left:-200%;}
+        100% {margin-left:0;}
+      }
+
+    .slide_auto li:nth-child(1) {
+        background-image: url('../img/bellance/onboarding_slide01.png');
+        z-index: 100;
+      }
+      .slide_auto li:nth-child(2) {
+        background-image: url('../img/bellance/onboarding_slide02.png');
+        z-index: 100;
+      }
+      .slide_auto li:nth-child(3) {
+        background-image: url('../img/bellance/onboarding_slide03.png');
+        z-index: 100;
+      }
+
+.feed{
+        position:absolute;
+ }
+.feed_title{
+        position:absolute;
+        top:6433px;
+        left: 297px;
+ }
+ .feed_mockup{
+  position:absolute;
+  top:6647px;
+  left: 297px;
+}
+.feed_circle{
+  position: absolute;
+  left: 567px;
+  top:6577px;
+  animation: feed_circle 2.5s ease-in-out infinite;
+}
+@keyframes feed_circle{
+50% {
+   left: 567px;
+   top:6597px;
+}
+}
+.feed_con{
+  position:absolute;
+  top:7396px;
+  left: 970px;
+}
+
+.history{
+  position:absolute;
+}
+.history_title{
+  position:absolute;
+  top:8039px;
+  left: 1080px;
+}
+.history_con{
+  position:absolute;
+  top:7745px;
+  left: 161px;
+}
+
+.history_screen{
+  position: absolute;
+  margin: auto;
+  overflow: hidden;
+  width: 347px;
+  height: 552px;
+  top:7970px;
+  left: 323px;
+}
+.history_auto{
+  padding: 0;
+  width: 9999px;
+  transition: all 0.5s;
+   animation: history_auto 5s infinite;
+  }
+
+ .history_auto>li {
+   float: left;
+  line-height: 200px;
+  width: 347px;
+  height: 552px;
+  list-style: none;
+  line-height: 200px;
+  }
+
+  @keyframes history_auto {
+    0% {margin-top:0;} /* 0 ~ 10  : 정지 */
+    50% {margin-top:200%;}
+    100% {margin-top:0;}
+  }
+
+  .history_auto li:nth-child(1) {
+      background-image: url('../img/bellance/history_slide01.jpg');
+    }
+    .history_auto li:nth-child(2) {
+      background-image: url('../img/bellance/history_slide01.jpg');
+    }
+
+    .history_bar{
+      position:absolute;
+      top:8500px;
+      left: 302px;
+    }
+
+
+.wireframe{
+  position:absolute;
+}
+.wireframe_title{
+  position:absolute;
+  top:8875px;
+  left: 297px;
+}
+.wireframe_back01{
+  position:absolute;
+  top:8796px;
+  left: 0px;
+}
+.wireframe_back02{
+  position:absolute;
+  top:9673px;
+  left: 159px;
+}
+.wireframe_back03{
+  position:absolute;
+  top:8725px;
+  left: 995px;
+}
+.wireframe_back04{
+  position:absolute;
+  top:8937px;
+  left: 1746px;
+}
+.wireframe_screen{
+  position:absolute;
+  top:9140px;
+  left: 748px;
+}
+.wireframe_line{
+  position:absolute;
+  top:9119px;
+  left: 729px;
+}
+.wireframe_con01{
+  position:absolute;
+  top:9256px;
+  left: 1164px;
+}
+.wireframe_con02{
+  position:absolute;
+  top:9350px;
+  left:1164px;
+}
+.wireframe_con03{
+  position:absolute;
+  top:9560px;
+  left:1164px;
+}
+.wireframe_con04{
+  position:absolute;
+  top:9835px;
+  left:1164px;
+}
+
+.goalsetting{
+  position:absolute;
+}
+.goalsetting_title{
+  position:absolute;
+  top:10559px;
+  left:297px;
+}
+
+.goal_screen{
+  position: relative;
+  width: 352px;
+  height:768px;
+  left:981px;
+  top: 10419px;
+  overflow:hidden;
+}
+.goal_screen ul{
+  position:relative;
+}
+.goal_screen li{
+  position:absolute;left:0;right:0;top:0;bottom:0;opacity:0;
+  animation: fade 4.5s infinite;
+  width: 352px;
+  height:768px;
+}
+
+.goal_screen li:nth-child(1){
+  background-image: url('../img/bellance/goal_slide01.jpg');animation-delay:0s
+}
+.goal_screen li:nth-child(2){
+  background-image:url('../img/bellance/goal_slide02.jpg');
+  animation-delay:3s
+}
+    
+@keyframes fade {
+  0% {opacity:0;}
+  50% {opacity:1;}
+  100% {opacity:0;}
+}
+
+.goal_con{
+  position:absolute;
+  top:10368px;
+  left:823px;
+}
+.goal_con02{
+  position:absolute;
+  top:10368px;
+  left:1245px;
+}
+
+.search_title{
+  position:absolute;
+  top:11595px;
+  left: 968px;
+}
+.search_con01{
+  position:absolute;
+  top:11414px;
+  left:314px;
+}
+
+.search_screen {
+  position: absolute;
+  margin: auto;
+  width: 353px;
+  height: 765px;
+  top:11412px;
+  left: 314px;
+  overflow: hidden;
+}
+.search_auto{
+    padding: 0;
+    width: 9999px;
+    transition: all 0.5s;
+    animation: search_auto 5s infinite;
+  }
+  .search_auto>li {
+    float: left;
+    width: 353px;
+    height: 765px;
+    list-style: none;
+    line-height: 200px;
+  }
+
+  @keyframes search_auto {
+      0% {margin-left:0;} /* 0 ~ 10  : 정지 */
+      10% {margin-left:0;} /* 10 ~ 25 : 변이 */
+      35% {margin-left:100%;} /* 35 ~ 50 : 변이 */
+      50% {margin-left:200%;}
+      100% {margin-left:0;}
+    }
+
+  .search_auto li:nth-child(1) {
+      background-image: url('../img/bellance/search_con02.png');
+      z-index: 100;
+    }
+    .search_auto li:nth-child(2) {
+      background-image: url('../img/bellance/search_con02.png');
+      z-index: 100;
+    }
+    
+    .search_con03{
+      position:absolute;
+      top:11361px;
+      left:153px;
+    }
+
+    
+.my {
+  position: absolute;
+  }
+.my_title {
+  position: absolute;
+  left: 296px;
+  top: 12533px;
+}
+.my_con {
+  position: absolute;
+  left: 1019px;
+  top: 12258px;
+}
+.my_con02 {
+  position: absolute;
+  left: 1310px;
+  top: 12396px;
+  animation: my_con02 3s linear infinite;
+}
+  @keyframes my_con02 {
+      0%	{}
+      50% {transform: rotate(180deg);}
+      100% {transform: rotate(360deg);}
+     }
+
+    .dm{
+      position:absolute;
+    }
+    .dm_title{
+      position:absolute;
+      top:13608px;
+      left: 1128px;
+    }
+    .dm_con01{
+      position:absolute;
+      top:13315px;
+      left: 156px;
+    }
+    .dm_con02{
+      position:absolute;
+      top:13551px;
+      left: 362px;
+    }
+    .dm_con03{
+      position:absolute;
+      top:13622px;
+      left: 495px;
+    }
+    .dm_con04{
+      position:absolute;
+      top:13700px;
+      left: 362px;
+    }
+    .dm_con05{
+      position:absolute;
+      top:13746px;
+      left: 535px;
+    }
+    .dm_con06{
+      position:absolute;
+      top:13788px;
+      left: 362px;
+    }
+    .dm_con07{
+      position:absolute;
+      top:13861px;
+      left: 552px;
+    }
+
+
+    .finish{
+      position:absolute;
+    }
+    .finish{
+      position:absolute;
+      top:14290px;
+      left: 55px;
+    }
+
+    .epilogue{
+      position:absolute;
+    }
+    .epilogue_title{
+      position:absolute;
+      top:16321px;
+      left:297px;
+    }
+    .epilogue_logo{
+      position:absolute;
+      top:16540px;
+      left:297px;
+    }
+
+
+
+
