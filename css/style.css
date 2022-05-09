@@ -241,7 +241,7 @@ top:274px;
 
  #ALL_about{
   width: 1920px;
-  height: 6500px;
+  height: 5600px;
   background-color:#131000;
 }
 
@@ -414,7 +414,7 @@ cursor: pointer;}
 .about_skills{
 background-color:#000;
 width: 1950px;
-height: 1750px;
+height: 1800px;
 }
 .about_skill{ 
  position:absolute;
@@ -423,7 +423,7 @@ height: 1750px;
  }
 .about_skill02{ 
 position:absolute;
-top:3733px;
+top:3755px;
 left:364px;
 animation: about_skill02 20s linear infinite;
 }
@@ -434,7 +434,7 @@ animation: about_skill02 20s linear infinite;
   }
 .about_skill03{ 
 position:absolute;
-top:3696px;
+top:3715px;
 left:324px;
 animation: about_skill03 20s linear infinite;
 }
@@ -445,7 +445,7 @@ animation: about_skill03 20s linear infinite;
   }
 .about_skill04{ 
 position:absolute;
-top:3659px;
+top:3663px;
 left:252px;
 }
 .possibility{ 
@@ -537,6 +537,18 @@ left:1248px;
 }
     
   
+.about_bottom{ 
+  position:absolute;
+  top:0px;
+  left: 0px;
+  }
+  .about_pf{ 
+    position:absolute;
+    top:5400px;
+    left: 795px;
+    }
+
+
 
 
  /*    PORTFOLIO 1    */
@@ -585,7 +597,7 @@ cursor: pointer;}
   width: 488px;
   height: 965px;
   right:0px;
-  background: url("../img/pf_right_back01.jpg")no-repeat;
+  background: url("../img/pf_right_back01.jpg") no-repeat;
 }
 
 
@@ -634,8 +646,5 @@ cursor: pointer;}
   margin-bottom: 35px;}
   
 
-
-
-   /*    PORTFOLIO 2    */
 
 
