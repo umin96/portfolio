@@ -536,17 +536,25 @@ top:4915px;
 left:1248px;
 }
     
-  
-.about_bottom{ 
+.about_bottom{
+  width: 1950px;
+  height: 350px;
+  position:relative;
+}
+.next{
   position:absolute;
-  top:0px;
-  left: 0px;
-  }
-  .about_pf{ 
-    position:absolute;
-    top:5400px;
-    left: 795px;
-    }
+  width: 500px;
+  height: 28px;
+  margin-left: 780px;
+  margin-top:160px;
+  opacity: 70%;
+  background: url("../img/about_pf.png") no-repeat;
+}
+
+.next:hover { 
+  opacity: 100%;
+      background: url("../img/about_pf_hover.png") no-repeat;
+ }
 
 
 
