@@ -1,0 +1,313 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#all{
+    overflow:hidden;
+    width: 1903px;
+    position: relative;
+  }
+
+.overview{
+    position:absolute;
+    left: 320px;
+    top:1125px;
+}
+
+.typo{
+    position:absolute;
+    left: 320px;
+    top:1455px;
+}
+
+.color{
+    position:absolute;
+    left: 320px;
+    top:1870px;
+}
+
+.line01{
+    position:absolute;
+    left: 320px;
+    top:1390px;
+}
+
+.line02{
+    position:absolute; 
+    left: 320px;
+    top:2200px;
+}
+
+.title{
+    position:absolute;
+    left: 320px;
+    top:2263px;
+}
+
+.title_before{
+    position:absolute;
+    left: 465px;
+    top:2447px;
+}
+
+.title_after{
+    position:absolute;
+    left: 1027px;
+    top:2299px;
+}
+
+.promotion{
+    position:absolute;
+    left: 320px;
+    top:2710px;
+}
+
+.layout{
+    position:absolute;
+    left: 400px;
+    top:2819px;
+}
+
+.main_title01{
+    position:absolute;
+    left: 733px;
+    top:2887px;
+}
+
+.main_title02{
+    position:absolute;
+    left: 855px;
+    top:2946px;
+}
+
+
+.leaf01{
+    position: absolute;
+    left: 1150px;
+    top:2915px;
+    animation: leaf01 2.5s ease-in-out infinite;
+}
+@keyframes leaf01{
+  50% {
+    left: 1140px;
+    top:2925px;
+  }
+}
+
+.leaf02{
+    position: absolute;
+    left: 473px;
+    top:3231px;
+    animation: leaf02 2.5s ease-in-out infinite;
+}
+@keyframes leaf02{
+  50% {
+    left: 483px;
+    top:3241px;
+  }
+}
+
+.step01{
+    position:absolute;
+    left: 935px;
+    top:3492px;
+}
+
+.step01_title{
+    position:absolute;
+    left: 826px;
+    top:3564px;
+}
+
+.step01_map{
+    position:absolute;
+    left: 870px;
+    top:3696px;
+}
+.step01_con01{
+    position:absolute;
+    left: 470px;
+    top:3692px;
+}
+.step01_con02{
+    position:absolute;
+    left: 966px;
+    top:3644px;
+}
+.step01_con03{
+    position:absolute;
+    left: 470px;
+    top:3847px;
+}
+.step01_con04{
+    position:absolute;
+    left: 982px;
+    top:3821px;
+}
+
+.step01_bubble{
+    position:absolute;
+    left: 644px;
+    top: 4081px;
+    animation: step01_bubble 2.5s ease-in-out infinite;
+}
+@keyframes step01_bubble{
+  50% {
+    left: 622px;
+    top:4061px;
+  }
+}
+.step02{
+    position:absolute;
+    left: 936px;
+    top:4262px;
+}
+
+.step02_title{
+    position:absolute;
+    left: 830px;
+    top:4335px;
+}
+.step02_con01{
+    position:absolute;
+    left: 701px;
+    top:4425px;
+}
+.step02_con02{
+    position:absolute;
+    left: 760px;
+    top:4624px;
+}
+.step02_con03{
+    position:absolute;
+    left: 707px;
+    top: 4816px;
+}
+.step02_img01{
+    position:absolute;
+    left: 375px;
+    top:4545px;
+}
+.step02_img02{
+    position:absolute;
+    left: 1338px;
+    top: 4366px;
+}
+.step02_wind{
+    position:absolute;
+    left: 373px;
+    top: 4249px;
+    animation: step02_wind 2.5s ease-in-out infinite;
+}
+@keyframes step02_wind{
+  50% {
+    left: 388px;
+    top:4269px;
+  }
+}
+
+
+.step03{
+    position:absolute;
+    left: 936px;
+    top:5159px;
+}
+.step03_title{
+    position:absolute;
+    left: 804px;
+    top:5234px;
+}
+.step03_box{
+    position:absolute;
+    left: 722px;
+    top:5321px;
+}
+.step03_con01{
+    position:absolute;
+    left: 755px;
+    top:5390px;
+}
+.step03_con02{
+    position:absolute;
+    left: 754px;
+    top:5580px;
+}
+.step03_con03{
+    position:absolute;
+    left: 763px;
+    top: 5680px;
+}
+.step03_boxline{
+    position:absolute;
+    left: 755px;
+    top: 5664px;
+}
+
+.button01 {
+    position:absolute;
+    left: 880px;
+    top: 5740px;
+    z-index: 15 !important;
+  }
+  .button01 a {
+    padding: 8px 50px;
+    text-align: center;
+    font: 16px "AppleSDGothicNeoM.woff"; 
+    color: #3a6a36;
+    background-color: #ebfed5cc;
+    text-transform: uppercase;
+    border-radius: 70px;
+  }
+  
+  .button01 a:hover {
+    font: 16px "AppleSDGothicNeoM.woff"; 
+    color: #3a6a36;
+    background-color: #ebfed5;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+
+.step03_leaf01{
+    position:absolute;
+    left: 373px;
+    top: 5249px;
+    animation: step03_leaf01 2.5s ease-in-out infinite;
+}
+@keyframes step03_leaf01{
+  50% {
+    left: 385px;
+    top:5265px;
+  }
+}
+.step03_leaf02{
+    position:absolute;
+    left: 1240px;
+    top: 5505px;
+    animation: step03_leaf02 2.5s ease-in-out infinite;
+}
+@keyframes step03_leaf02{
+  50% {
+    left: 1225px;
+    top:5525px;
+  }
+}
+
+
+
+.banner{
+    position:absolute;
+    left: 320px;
+    top:6302px;
+}
+.banner02{
+    position:absolute;
+    left: 360px;
+    top:6383px;
+}
+.banner03{
+    position:absolute;
+    left: 1214px;
+    top:6311px;
+}
