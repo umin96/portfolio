@@ -650,7 +650,7 @@ cursor: pointer;}
   padding-left: 24px;
   background: url("../img/right_04.png") no-repeat; 
 transition: 0.6s; display: block;  clear: both; float: right;}
-.right ul>li>.link03:hover {
+.right ul>li>.link04:hover {
   width: 163px; height: 50px; 
   background: url("../img/right_hover04.png") no-repeat;
 cursor: pointer;}
