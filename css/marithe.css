@@ -1,0 +1,26 @@
+
+
+*{
+    padding:0;
+    margin:0;
+}
+
+
+    /*  MAIN  */
+
+
+#ALL{
+  overflow:hidden;
+  max-width: 1903px;
+  background-color:#fff;
+  position: relative;
+}
+
+
+.promotion{
+  position:absolute;
+  top:136px;
+  left:421px;
+  width: 372px;
+  height: 473px;
+}
